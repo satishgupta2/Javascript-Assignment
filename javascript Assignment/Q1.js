@@ -10,7 +10,7 @@ output : weekend
 
 
 function checkDayType(day) {
-    const weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+    const weekdays = ['Monday', 'Tuesday', 'Wednessday', 'Thursday', 'Friday'];
     const weekends = ['Saturday', 'Sunday'];
 
     const inputDay = day.charAt(0).toUpperCase() + day.slice(1).toLowerCase();
